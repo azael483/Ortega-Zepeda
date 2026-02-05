@@ -1,0 +1,53 @@
+* {
+    margin: auto;
+}
+
+body{
+
+}
+
+header{
+    background-color: #dfecf4;
+    overflow: hidden;
+    color: black;
+}
+
+header h1{
+    float: left;
+    padding: 10px;
+}
+
+.left{
+    width: 40%;
+    float: left;
+    padding-left: 40px;
+}
+
+.right{
+    width: 30%;
+    float: right;
+}
+
+.right nav{
+    padding: 10px;
+    float: right;
+}
+
+.right nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.right nav ul li {
+    display: inline;
+    margin: 5px;
+}
+
+.right nav a:hover {
+    background-color: darkcyan;
+    color: aliceblue;
+}
+
+.right button{
+    float: right;
+}
